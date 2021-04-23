@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "500593af-8a49-4e97-9e74-49a0bd99b241",
+		"name": "Api Ezito Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Deodorant\",\r\n    \"price\": 3.50,\r\n    \"imgURL\": \"\",\r\n    \"productType\": [\"Others\"]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Deodorant\",\r\n    \"price\": 3.50,\r\n    \"imgURL\": \"\",\r\n    \"productType\": [\"Others\"]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

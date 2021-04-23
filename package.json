@@ -1,0 +1,24 @@
+{
+  "name": "ezito-api-company",
+  "version": "1.0.0",
+  "description": "Practice exercise of Mongodb + Node js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babelsrc --out-dir build",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "sanalegon",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0"
+  }
+}
